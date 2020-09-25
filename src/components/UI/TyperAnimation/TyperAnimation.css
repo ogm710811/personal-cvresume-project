@@ -1,0 +1,11 @@
+#cursor {
+  border-left: .1em solid #1cb9c8;
+  animation: blink 20s steps(10) infinite;
+}
+
+@keyframes blink {
+  50% {
+    border-color: #1cb9c8;
+  }
+}
+
